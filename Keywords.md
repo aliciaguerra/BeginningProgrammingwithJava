@@ -16,4 +16,7 @@ the final reserved word.
 - <b>continue:</b> Used to resume program execution at the end of the current loop body. If followed by a label, coninue resumes
 execution at the end of the enclosing labeled loop body.
 - <b>default:</b> The default keyword can optionally be used in a switch statement to label a block of statements to be executed
-if no case matches the specified
+if no case matches the specified. Alternatively, the default keyword can also be used to declare default values in Java
+annotation. From Java 8 and onwards, the default keyword is also used to specify that a method in an interface provides the default implementation of the optional method.
+- <b>instanceOf:</b> A binary operator that takes an object reference as its first operand and a class or interface as its second operand and produces a boolean as a result. The instanceOf operator evaluates to true if and only if the runtime type of the object is assignment compatible with the class or interface.
+- <b>interface:</b> Used to declare a special type of class that only contains abstract methods, constant (static final) fields and static interfaces. It can later be implemented by classes that declare the interface with the implements keyword.
