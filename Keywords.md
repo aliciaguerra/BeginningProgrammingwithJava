@@ -26,3 +26,5 @@ annotation. From Java 8 and onwards, the default keyword is also used to specify
 - <b>interface:</b> Used to declare a special type of class that only contains abstract methods, constant (static final) fields and static interfaces. It can later be implemented by classes that declare the interface with the implements keyword.
 
 - <b>long: </b> The long keyword is used to declare a variable that can declare a 32-bit signed two's complement integer. The keyword is also used to declare that a method returns a value of primitive type long. 
+
+- <b></b>
