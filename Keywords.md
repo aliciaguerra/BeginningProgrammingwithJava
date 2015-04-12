@@ -27,4 +27,8 @@ annotation. From Java 8 and onwards, the default keyword is also used to specify
 
 - <b>long: </b> The long keyword is used to declare a variable that can declare a 32-bit signed two's complement integer. The keyword is also used to declare that a method returns a value of primitive type long. 
 
-- <b></b>
+- <b>native:</b>Used in method declarations to specify the method is not implemented in the same Java source file, but rather in another language.
+
+- <b>new:</b> Used to create a new instance of a class or array object.
+
+- <b>package:</b> A group of types. Packages are declared with the 
