@@ -3,3 +3,15 @@ A Java Virtual Machine is a process virtual machine that can execute Java byteco
 a bytecode file, which is executed by the JVM. Java was designed to allow application programs to be built that could be run
 on any platform, without having to be rewritten or recompiled by the programmer for each seperate platform. A Java Virtual 
 Machine makes this possible, because it is aware of the specific instruction lengths and other particulars of the underlying 
+hardware platform.
+
+2. What is the difference between JDK and JRE?
+The Java Runtime Environment is basically the Java Virtual Machine where your Java programs are being executed. It also 
+includes browser plugins for applet execution. The Java Development Kit is the full-featured software development kit for Java,
+including the JRE, the compilers and tools (like JavaDocs, Java Debugger), in order for a user to develop, compile, and execute Java
+applications.
+
+3. What does that static keyword mean? Can you override private or static method in Java?
+The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to
+which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at
+runtime and static methods are statically compiled
